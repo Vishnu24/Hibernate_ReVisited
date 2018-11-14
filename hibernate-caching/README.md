@@ -1,2 +1,2 @@
-# Hibernate_ReVisited
-Hibernate Examples 
+# Hibernate Caching
+Hibernate Caching E 
