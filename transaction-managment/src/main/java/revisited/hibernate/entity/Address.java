@@ -1,4 +1,4 @@
-package revisited.hibernate.caching.entity;
+package revisited.hibernate.entity;
 
 import java.io.Serializable;
 
@@ -17,7 +17,7 @@ import org.hibernate.annotations.Parameter;
 
 @Entity
 @Table(name = "ADDRESS")
-@Cache(usage = CacheConcurrencyStrategy.READ_ONLY, region = "employee")
+
 public class Address implements Serializable{
 
 	/**

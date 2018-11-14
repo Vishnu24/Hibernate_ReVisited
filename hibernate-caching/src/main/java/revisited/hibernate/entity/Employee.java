@@ -3,7 +3,7 @@
  *     Copyright  2010 ShepHertz Technologies Pvt Ltd. All rights reserved.
  * -----------------------------------------------------------------------
  */
-package revisited.hibernate.caching.entity;
+package revisited.hibernate.entity;
 
 import java.io.Serializable;
 

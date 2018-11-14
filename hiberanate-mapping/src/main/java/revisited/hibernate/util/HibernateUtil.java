@@ -3,7 +3,7 @@
  *     Copyright  2010 ShepHertz Technologies Pvt Ltd. All rights reserved.
  * -----------------------------------------------------------------------
  */
-package revisited.hibernate.caching.util;
+package revisited.hibernate.util;
 
 import java.io.File;
 

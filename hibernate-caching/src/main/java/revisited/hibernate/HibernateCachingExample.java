@@ -3,7 +3,7 @@
  *     Copyright  2010 ShepHertz Technologies Pvt Ltd. All rights reserved.
  * -----------------------------------------------------------------------
  */
-package revisited.hibernate.caching;
+package revisited.hibernate;
 
 
 import org.hibernate.HibernateException;
@@ -13,9 +13,9 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.CreateKeySecondPass;
 import org.hibernate.stat.Statistics;
 
-import revisited.hibernate.caching.entity.Address;
-import revisited.hibernate.caching.entity.Employee;
-import revisited.hibernate.caching.util.HibernateUtil;
+import revisited.hibernate.entity.Address;
+import revisited.hibernate.entity.Employee;
+import revisited.hibernate.util.HibernateUtil;
 
 /**
  * @author Vishnu Garg

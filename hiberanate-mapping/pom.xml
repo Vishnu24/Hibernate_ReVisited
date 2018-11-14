@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>hibernate-caching</groupId>
-  <artifactId>hibernate-caching</artifactId>
+  <groupId>hibernate-mapping</groupId>
+  <artifactId>hibernate-mapping</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>hibernate-caching</name>
+  <name>hibernate.revisited.mapping</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -24,36 +24,17 @@
     <dependency>
     	<groupId>org.hibernate</groupId>
     	<artifactId>hibernate-core</artifactId>
-    	<version>4.3.5.Final</version>
+    	<version>5.0.12.Final</version>
     </dependency>
     <dependency>
     	<groupId>org.hibernate</groupId>
     	<artifactId>hibernate-commons-annotations</artifactId>
     	<version>3.2.0.Final</version>
     </dependency>
-    
-    	<!-- EHCache Core APIs -->
-		<dependency>
-			<groupId>net.sf.ehcache</groupId>
-			<artifactId>ehcache-core</artifactId>
-			<version>2.6.9</version>
-		</dependency>
-		<!-- Hibernate EHCache API -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-ehcache</artifactId>
-			<version>4.3.5.Final</version>
-		</dependency>
-		<!-- EHCache uses slf4j for logging -->
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-			<version>1.7.5</version>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.46</version>
-		</dependency>
+    <dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+    	<version>5.1.46</version>
+    </dependency>
   </dependencies>
 </project>
